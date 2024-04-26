@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Главная страница
+{% endblock %}
+
+{% block content %}
+<center><img src="{{ url_for('static', filename='img/fun.jpg') }}" alt="fun"></center>>
+<marquee behavior="alternate" bgcolor="#e20b0b" direction="right" style="color: #ffffff; font-size: 40px; font-weight: bolder; line-height: 150%; text-shadow: #000000 0px 1px 1px;"onmousedown="this.stop()" onmouseup="this.start()">Если бы сайт делал mail.ru, то тут была бы ваша реклама :3 XDXD</marquee>
+{% endblock %}
